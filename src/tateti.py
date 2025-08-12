@@ -2,6 +2,7 @@ from src.tablero import Tablero
 from src.jugador import Jugador
 from src.CLI import pedir_posicion, mostrar_mensaje
 
+
 def jugar():
     tablero = Tablero()
     jugador1 = Jugador("Jugador 1", "X")
